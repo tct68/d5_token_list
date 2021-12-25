@@ -1,0 +1,150 @@
+[
+  {
+    "id": "smartchain",
+    "name": "Smart Chain",
+    "coinId": 20000714,
+    "symbol": "BNB",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivationPath": "m/44'/60'/0'/0/0",
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "p2pkhPrefix": null,
+    "p2shPrefix": null,
+    "hrp": null,
+    "publicKeyHasher": null,
+    "base58Hasher": null,
+    "xpub": null,
+    "xprv": null,
+    "explorer": {
+      "url": "https://bscscan.com",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0xb9ae2e808fe8e57171f303ad8f6e3fd17d949b0bfc7b4db6e8e30a71cc517d7e",
+      "sampleAccount": "0x35552c16704d214347f29Fa77f77DA6d75d7C752"
+    },
+    "info": {
+      "url": "https://www.binance.org/en/smartChain",
+      "source": "https://github.com/binance-chain/bsc",
+      "rpc": "https://bsc-dataseed1.binance.org",
+      "documentation": "https://eth.wiki/json-rpc/API"
+    }
+  },
+  {
+    "id": "polygon",
+    "name": "Polygon",
+    "coinId": 966,
+    "symbol": "MATIC",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivationPath": "m/44'/60'/0'/0/0",
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "p2pkhPrefix": null,
+    "p2shPrefix": null,
+    "hrp": null,
+    "publicKeyHasher": null,
+    "base58Hasher": null,
+    "xpub": null,
+    "xprv": null,
+    "explorer": {
+      "url": "https://polygonscan.com",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0xe26ed1470d5bf99a53d687843e7acdf7e4ba6620af93b4d672e714de90476e8e",
+      "sampleAccount": "0x720E1fa107A1Df39Db4E78A3633121ac36Bec132"
+    },
+    "info": {
+      "url": "https://polygon.technology",
+      "source": "https://github.com/maticnetwork/contracts",
+      "rpc": "https://rpc-mainnet.matic.network",
+      "documentation": "https://eth.wiki/json-rpc/API"
+    }
+  },
+  {
+    "id": "fantom",
+    "name": "Fantom",
+    "coinId": 10000250,
+    "symbol": "FTM",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivationPath": "m/44'/60'/0'/0/0",
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "p2pkhPrefix": null,
+    "p2shPrefix": null,
+    "hrp": null,
+    "publicKeyHasher": null,
+    "base58Hasher": null,
+    "xpub": null,
+    "xprv": null,
+    "explorer": {
+      "url": "https://ftmscan.com",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0xb0a741d882291951de1fac72e90b9baf886ddb0c9c87658a0c206490dfaa5202",
+      "sampleAccount": "0x9474feb9917b87da6f0d830ba66ee0035835c0d3"
+    },
+    "info": {
+      "url": "https://fantom.foundation",
+      "source": null,
+      "rpc": null,
+      "documentation": null
+    }
+  },
+  {
+    "id": "celo",
+    "name": "Celo",
+    "coinId": 52752,
+    "symbol": "CELO",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivationPath": "m/44'/52752'/0'/0/0",
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "p2pkhPrefix": null,
+    "p2shPrefix": null,
+    "hrp": null,
+    "publicKeyHasher": null,
+    "base58Hasher": null,
+    "xpub": null,
+    "xprv": null,
+    "explorer": {
+      "url": "https://explorer.celo.org",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0xaf41ee58afe633dc7b179c15693cca40fe0372c1d7c70351620105d59d326693",
+      "sampleAccount": "0xFBFf95e2Fa7e4Ff3aeA34eFB05fB60F9968a6aaD"
+    },
+    "info": {
+      "url": "https://celo.org",
+      "source": null,
+      "rpc": null,
+      "documentation": null
+    }
+  },
+  {
+    "id": "ethereum",
+    "name": "Ethereum",
+    "coinId": 60,
+    "symbol": "ETH",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivationPath": "m/44'/60'/0'/0/0",
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "explorer": {
+      "url": "https://etherscan.io",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0x9edaf0f7d9c6629c31bbf0471fc07d696c73b566b93783f7e25d8d5d2b62fa4f",
+      "sampleAccount": "0x5bb497e8d9fe26e92dd1be01e32076c8e024d167"
+    },
+    "info": {
+      "url": "https://ethereum.org",
+      "source": "https://github.com/ethereum/go-ethereum",
+      "rpc": "https://mainnet.infura.io",
+      "documentation": "https://eth.wiki/json-rpc/API"
+    }
+  }
+]
