@@ -1,5 +1,13 @@
 [
   {
+    "address": "0xBBa1a07445129CF3B1CCaBA023D7e5AD3593721A",
+    "name": "D5 Token",
+    "symbol": "D5",
+    "chainId": 42220,
+    "decimals": 18,
+    "logoURI": "https://iconape.com/wp-content/png_logo_vector/moskwa-metro-line-d5.png"
+  },
+  {
     "address": "0x00400FcbF0816bebB94654259de7273f4A05c762",
     "name": "Poof",
     "symbol": "POOF",
