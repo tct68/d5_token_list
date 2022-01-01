@@ -1,0 +1,13 @@
+{
+  "defaultNetwork": "CELO",
+  "networkRpc": [
+    {
+      "CELO": "https://alfajores-forno.celo-testnet.org"
+    }
+  ],
+  "tokenLists": [
+    {
+      "CELO": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/celo-testnet.json"
+    }
+  ]
+}
