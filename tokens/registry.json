@@ -1,57 +1,44 @@
-[
-  {
-    "id": "celo",
-    "name": "Celo",
-    "coinId": 52752,
-    "symbol": "CELO",
-    "decimals": 18,
-    "blockchain": "Ethereum",
-    "derivationPath": "m/44'/52752'/0'/0/0",
-    "curve": "secp256k1",
-    "publicKeyType": "secp256k1Extended",
-    "p2pkhPrefix": null,
-    "p2shPrefix": null,
-    "hrp": null,
-    "publicKeyHasher": null,
-    "base58Hasher": null,
-    "xpub": null,
-    "xprv": null,
-    "explorer": {
-      "url": "https://explorer.celo.org",
-      "txPath": "/tx/",
-      "accountPath": "/address/",
-      "sampleTx": "0xaf41ee58afe633dc7b179c15693cca40fe0372c1d7c70351620105d59d326693",
-      "sampleAccount": "0xFBFf95e2Fa7e4Ff3aeA34eFB05fB60F9968a6aaD"
-    },
-    "info": {
-      "url": "https://celo.org",
-      "source": null,
-      "rpc": null,
-      "documentation": null
+{
+  "networks": [
+    {
+      "id": "celo",
+      "name": "Celo",
+      "coinId": 52752,
+      "symbol": "CELO",
+      "decimals": 18,
+      "blockchain": "Ethereum",
+      "derivationPath": "m/44'/52752'/0'/0/0",
+      "curve": "secp256k1",
+      "publicKeyType": "secp256k1Extended",
+      "p2pkhPrefix": null,
+      "p2shPrefix": null,
+      "hrp": null,
+      "publicKeyHasher": null,
+      "base58Hasher": null,
+      "xpub": null,
+      "xprv": null,
+      "explorer": {
+        "url": "https://explorer.celo.org",
+        "txPath": "/tx/",
+        "accountPath": "/address/",
+        "sampleTx": "0xaf41ee58afe633dc7b179c15693cca40fe0372c1d7c70351620105d59d326693",
+        "sampleAccount": "0xFBFf95e2Fa7e4Ff3aeA34eFB05fB60F9968a6aaD"
+      },
+      "info": {
+        "url": "https://celo.org",
+        "source": null,
+        "rpc": null,
+        "documentation": null
+      }
     }
-  },
-  {
-    "id": "ethereum",
-    "name": "Ethereum",
-    "coinId": 60,
-    "symbol": "ETH",
-    "decimals": 18,
-    "blockchain": "Ethereum",
-    "derivationPath": "m/44'/60'/0'/0/0",
-    "curve": "secp256k1",
-    "publicKeyType": "secp256k1Extended",
-    "explorer": {
-      "url": "https://etherscan.io",
-      "txPath": "/tx/",
-      "accountPath": "/address/",
-      "sampleTx": "0x9edaf0f7d9c6629c31bbf0471fc07d696c73b566b93783f7e25d8d5d2b62fa4f",
-      "sampleAccount": "0x5bb497e8d9fe26e92dd1be01e32076c8e024d167"
+  ],
+  "appConfig": {
+    "defaultNetwork": "CELO",
+    "networkRpc": {
+      "CELO": "https://alfajores-forno.celo-testnet.org"
     },
-    "info": {
-      "url": "https://ethereum.org",
-      "source": "https://github.com/ethereum/go-ethereum",
-      "rpc": "https://mainnet.infura.io",
-      "documentation": "https://eth.wiki/json-rpc/API"
+    "tokenLists": {
+      "CELO": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/celo-testnet.json"
     }
   }
-]
+}
