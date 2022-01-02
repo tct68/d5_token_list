@@ -34,8 +34,11 @@
   ],
   "appConfig": {
     "defaultNetwork": "CELO",
-    "networkRpc": {
-      "CELO": "https://alfajores-forno.celo-testnet.org"
+    "networks": {
+      "CELO": {
+        "rpc": "https://alfajores-forno.celo-testnet.org",
+        "socket": "wss://alfajores-forno.celo-testnet.org/ws"
+      }
     },
     "tokenLists": {
       "CELO": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/celo-testnet.json"
