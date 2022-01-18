@@ -119,7 +119,7 @@
       }
     },
     "tokenMapUrl": {
-      "BNB": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/celo-testnet.json"
+      "BNB": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/bnb-testnet.json"
     }
   }
 }
