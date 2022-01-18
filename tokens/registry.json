@@ -30,10 +30,87 @@
         "rpc": null,
         "documentation": null
       }
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "displayName": "BNB",
+      "coinId": 714,
+      "symbol": "BNB",
+      "decimals": 8,
+      "blockchain": "Binance",
+      "derivationPath": "m/44'/714'/0'/0/0",
+      "curve": "secp256k1",
+      "publicKeyType": "secp256k1",
+      "hrp": "bnb",
+      "explorer": {
+        "url": "https://explorer.binance.org",
+        "txPath": "/tx/",
+        "accountPath": "/address/",
+        "sampleTx": "A93625C9F9ABEA1A8E31585B30BBB16C34FAE0D172EB5B6B2F834AF077BF06BB",
+        "sampleAccount": "bnb1u7jm0cll5h3224y0tapwn6gf6pr49ytewx4gsz"
+      },
+      "info": {
+        "url": "https://binance.org",
+        "source": "https://github.com/binance-chain/node-binary",
+        "rpc": "https://dex.binance.org",
+        "documentation": "https://docs.binance.org/api-reference/dex-api/paths.html"
+      }
+    },
+    {
+      "id": "bsc",
+      "name": "Smart Chain Legacy",
+      "coinId": 10000714,
+      "slip44": 714,
+      "symbol": "BNB",
+      "decimals": 18,
+      "blockchain": "Ethereum",
+      "derivationPath": "m/44'/714'/0'/0/0",
+      "curve": "secp256k1",
+      "publicKeyType": "secp256k1Extended",
+      "explorer": {
+        "url": "https://bscscan.com",
+        "txPath": "/tx/",
+        "accountPath": "/address/",
+        "sampleTx": "0xb9ae2e808fe8e57171f303ad8f6e3fd17d949b0bfc7b4db6e8e30a71cc517d7e",
+        "sampleAccount": "0x35552c16704d214347f29Fa77f77DA6d75d7C752"
+      },
+      "info": {
+        "url": "https://www.binance.org/en/smartChain",
+        "source": "https://github.com/binance-chain/bsc",
+        "rpc": "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "documentation": "https://eth.wiki/json-rpc/API"
+      },
+      "deprecated": true
+    },
+    {
+      "id": "smartchain",
+      "name": "Smart Chain",
+      "coinId": 20000714,
+      "slip44": 714,
+      "symbol": "BNB",
+      "decimals": 18,
+      "blockchain": "Ethereum",
+      "derivationPath": "m/44'/60'/0'/0/0",
+      "curve": "secp256k1",
+      "publicKeyType": "secp256k1Extended",
+      "explorer": {
+        "url": "https://bscscan.com",
+        "txPath": "/tx/",
+        "accountPath": "/address/",
+        "sampleTx": "0xb9ae2e808fe8e57171f303ad8f6e3fd17d949b0bfc7b4db6e8e30a71cc517d7e",
+        "sampleAccount": "0x35552c16704d214347f29Fa77f77DA6d75d7C752"
+      },
+      "info": {
+        "url": "https://www.binance.org/en/smartChain",
+        "source": "https://github.com/binance-chain/bsc",
+        "rpc": "https://bsc-dataseed1.binance.org",
+        "documentation": "https://eth.wiki/json-rpc/API"
+      }
     }
   ],
   "appConfig": {
-    "defaultNetwork": "CELO",
+    "defaultNetwork": "BNB",
     "config": {
       "CELO": {
         "rpcUrl": "https://alfajores-forno.celo-testnet.org",
