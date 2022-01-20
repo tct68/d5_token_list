@@ -112,6 +112,10 @@
   "appConfig": {
     "defaultNetwork": "BNB",
     "config": {
+      "CELO": {
+        "rpcUrl": "https://alfajores-forno.celo-testnet.org",
+        "socketUrl": "wss://alfajores-forno.celo-testnet.org/ws"
+      },
       "BNB": {
         "rpcUrl": "https://data-seed-prebsc-1-s1.binance.org:8545",
         "socketUrl": "wss://alfajores-forno.celo-testnet.org/ws",
@@ -119,7 +123,8 @@
       }
     },
     "tokenMapUrl": {
-      "BNB": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/bnb-testnet.json"
+      "BNB": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/bnb-testnet.json",
+      "CELO": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/celo.json"
     }
   }
 }
