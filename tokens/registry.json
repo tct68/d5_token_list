@@ -33,7 +33,7 @@
     }
   ],
   "appConfig": {
-    "defaultNetwork": "BNB",
+    "defaultNetwork": "CELO",
     "config": {
       "CELO": {
         "rpcUrl": "https://alfajores-forno.celo-testnet.org",
