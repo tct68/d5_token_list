@@ -37,7 +37,8 @@
     "config": {
       "CELO": {
         "rpcUrl": "https://alfajores-forno.celo-testnet.org",
-        "socketUrl": "wss://alfajores-forno.celo-testnet.org/ws"
+        "socketUrl": "wss://alfajores-forno.celo-testnet.org/ws",
+        "graphqlUrl": "wss://alfajores-forno.celo-testnet.org/ws"
       }
     },
     "tokenMapUrl": {
