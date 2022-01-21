@@ -1,48 +1,43 @@
 {
   "networks": [
     {
-      "id": "celo",
-      "name": "Celo",
-      "coinId": 52752,
-      "symbol": "CELO",
+      "id": "bsc",
+      "name": "Smart Chain Legacy",
+      "coinId": 10000714,
+      "slip44": 714,
+      "symbol": "BNB",
       "decimals": 18,
       "blockchain": "Ethereum",
-      "derivationPath": "m/44'/52752'/0'/0/0",
+      "derivationPath": "m/44'/714'/0'/0/0",
       "curve": "secp256k1",
       "publicKeyType": "secp256k1Extended",
-      "p2pkhPrefix": null,
-      "p2shPrefix": null,
-      "hrp": null,
-      "publicKeyHasher": null,
-      "base58Hasher": null,
-      "xpub": null,
-      "xprv": null,
       "explorer": {
-        "url": "https://explorer.celo.org",
+        "url": "https://bscscan.com",
         "txPath": "/tx/",
         "accountPath": "/address/",
-        "sampleTx": "0xaf41ee58afe633dc7b179c15693cca40fe0372c1d7c70351620105d59d326693",
-        "sampleAccount": "0xFBFf95e2Fa7e4Ff3aeA34eFB05fB60F9968a6aaD"
+        "sampleTx": "0xb9ae2e808fe8e57171f303ad8f6e3fd17d949b0bfc7b4db6e8e30a71cc517d7e",
+        "sampleAccount": "0x35552c16704d214347f29Fa77f77DA6d75d7C752"
       },
       "info": {
-        "url": "https://celo.org",
-        "source": null,
-        "rpc": null,
-        "documentation": null
-      }
+        "url": "https://www.binance.org/en/smartChain",
+        "source": "https://github.com/binance-chain/bsc",
+        "rpc": "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "documentation": "https://eth.wiki/json-rpc/API"
+      },
+      "deprecated": true
     }
   ],
   "appConfig": {
-    "defaultNetwork": "CELO",
+    "defaultNetwork": "BNB",
     "config": {
-      "CELO": {
-        "rpcUrl": "https://alfajores-forno.celo-testnet.org",
-        "socketUrl": "wss://alfajores-forno.celo-testnet.org/ws",
-        "graphqlUrl": "wss://alfajores-forno.celo-testnet.org/ws"
+      "BNB": {
+        "rpcUrl": "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "socketUrl": "wss://bsc-ws-node.nariox.org:443",
+        "graphqlUrl": "wss://bsc-ws-node.nariox.org:443"
       }
     },
     "tokenMapUrl": {
-      "CELO": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/celo-testnet.json"
+      "BNB": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/celo-testnet.json"
     }
   }
 }
