@@ -8,7 +8,7 @@
       "symbol": "BNB",
       "decimals": 18,
       "blockchain": "Ethereum",
-      "derivationPath": "m/44'/714'/0'/0/0",
+      "derivationPath": "m/44'/60'/0'/0/0",
       "curve": "secp256k1",
       "publicKeyType": "secp256k1Extended",
       "explorer": {
