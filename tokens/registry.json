@@ -1,43 +1,41 @@
 {
   "networks": [
     {
-      "id": "bsc",
-      "name": "Smart Chain Legacy",
-      "coinId": 10000714,
-      "slip44": 714,
-      "symbol": "BNB",
+      "id": "celo",
+      "name": "Celo",
+      "coinId": 52752,
+      "symbol": "CELO",
       "decimals": 18,
       "blockchain": "Ethereum",
       "derivationPath": "m/44'/60'/0'/0/0",
       "curve": "secp256k1",
       "publicKeyType": "secp256k1Extended",
       "explorer": {
-        "url": "https://bscscan.com",
+        "url": "https://explorer.celo.org",
         "txPath": "/tx/",
         "accountPath": "/address/",
-        "sampleTx": "0xb9ae2e808fe8e57171f303ad8f6e3fd17d949b0bfc7b4db6e8e30a71cc517d7e",
-        "sampleAccount": "0x35552c16704d214347f29Fa77f77DA6d75d7C752"
+        "sampleTx": "0xaf41ee58afe633dc7b179c15693cca40fe0372c1d7c70351620105d59d326693",
+        "sampleAccount": "0xFBFf95e2Fa7e4Ff3aeA34eFB05fB60F9968a6aaD"
       },
       "info": {
-        "url": "https://www.binance.org/en/smartChain",
-        "source": "https://github.com/binance-chain/bsc",
-        "rpc": "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "documentation": "https://eth.wiki/json-rpc/API"
-      },
-      "deprecated": true
+        "url": "https://celo.org",
+        "client": "https://github.com/celo-org/celo-blockchain",
+        "clientPublic": "https://forno.celo.org",
+        "clientDocs": "https://eth.wiki/json-rpc/API"
+      }
     }
   ],
   "appConfig": {
-    "defaultNetwork": "BNB",
+    "defaultNetwork": "CELO",
     "config": {
-      "BNB": {
-        "rpcUrl": "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "socketUrl": "wss://bsc-ws-node.nariox.org:443",
-        "graphqlUrl": "wss://bsc-ws-node.nariox.org:443"
+      "CELO": {
+        "rpcUrl": "https://alfajores-forno.celo-testnet.org",
+        "socketUrl": "https://api.thegraph.com/subgraphs/name/sushiswap/celo-exchange",
+        "graphqlUrl": "https://api.thegraph.com/subgraphs/name/sushiswap/celo-exchange"
       }
     },
     "tokenMapUrl": {
-      "BNB": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/celo-testnet.json"
+      "CELO": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/tokens/celo-testnet.json"
     }
   }
 }
