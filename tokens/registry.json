@@ -26,7 +26,7 @@
   ],
   "appConfig": {
     "defaultNetwork": "LUNA",
-    "defaultTokenIcon": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/assets/default_token_icon.svg",
+    "defaultTokenIcon": "https://raw.githubusercontent.com/conghtuongasd/d5_token_list/main/assets/default_token_icon.png",
     "config": {
       "LUNA": {
         "rpcUrl": "https://bombay-lcd.terra.dev",
